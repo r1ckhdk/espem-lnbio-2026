@@ -28,14 +28,18 @@
 ## 3. Criando ambiente virtual e instalando dependências
 
 1. Abra o terminal na pasta em que foi extraído o projeto, clicando com o botão direito em algum lugar vazio da pasta e selecionando a opção "Abrir no Terminal"
+
 2. Crie o ambiente virtual com o comando: 
+
     ```bash
     python -m venv venv
     ```
+
 3. Ative o ambiente virtual:
     ```bash
     .\venv\Scripts\activate
     ```
+
 4. Instale as dependências:
     ```bash
     pip install -r requirements.txt
@@ -48,3 +52,7 @@ Para executar o programa, rode o seguinte comando após ter instalado as depend�
 ```bash
 python live_inference.py
 ```
+
+O programa irá inicializar na tela do seu dispositivo e será indicada a taxa de quadros por segundo (FPS) no canto superior esquerdo.
+
+Para parar e execução, aperte a tecla `q`
