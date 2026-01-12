@@ -79,7 +79,7 @@ no início da linha do terminal.
 Com o ambiente virtual ativado, execute:
 
 ```bash
-(venv) pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Aguarde até que todas as bibliotecas sejam instaladas. Isso pode levar alguns minutos.
@@ -89,7 +89,7 @@ Aguarde até que todas as bibliotecas sejam instaladas. Isso pode levar alguns m
 Após concluir a instalação, execute o programa com o comando:
 
 ```bash
-(venv) python live_inference.py
+python live_inference.py
 ```
 
 O que esperar ao executar:
