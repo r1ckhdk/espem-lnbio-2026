@@ -46,7 +46,6 @@ def run_segmentation(model, image, device):
     return model.predict(
         image,
         # 0: person
-        # 16: dog
         # 24: backpack
         # 25: umbrella
         # 26: handbag
